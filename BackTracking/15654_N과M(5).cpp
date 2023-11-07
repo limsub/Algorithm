@@ -9,6 +9,17 @@ using namespace std;
 #include <queue>
 #include <cmath>
 
+#include <iostream>
+#include <vector>
+#include <string>
+#include <stack>
+#include <sstream>
+#include <algorithm>
+using namespace std;
+
+#include <queue>
+#include <cmath>
+
 // 15654 N과 M(5)
 // 조합으로 나오는 케이스
 // 맨 먼저 배열 소팅해주기
