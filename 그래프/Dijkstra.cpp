@@ -12,10 +12,12 @@ using namespace std;
 
 // Dijkstra
 void Dijkstra_search(vector< vector <pair<int, int> > > v, int start_node, int total_num) {
+
     priority_queue<pair <int, int> >PQ;
+
     PQ.push(make_pair(0, start_node));
+
     vector<int> Dist(total_num+1,  INF);
-    
 
     Dist[start_node] = 0;
 
