@@ -56,13 +56,13 @@ int main() {
         for (int i = 0; i < adj[cur].size(); i++) {
             int next = adj[cur][i];
 
-            if (v[next]) continue;
+            // if (v[next]) continue;
 
             indegree[next]--;
 
             if (indegree[next] == 0) { 
                 pq.push(next);
-                v[next] = 0;    // v가 필요한가..?
+                // v[next] = 0;    // v가 필요한가..?
             }
         }
     }
